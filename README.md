@@ -4,21 +4,21 @@ Repositório de teste criado a fim de estudos sobre o GitHub através da Formaç
 
 ## 🏫 Fundamentos
 
-**📁 Ao meu entendimento o que é um repositório no Git e no GitHub?**
+**📁 O que é um repositório no Git e no GitHub?**
 Se trata do diretório local ou remoto onde estará armazenado o projeto (todo o código fonte do projeto) público ou privado que será trabalhado em contribuição ou distribuído usuários selecionados ou não.
 *Em outras palavras: a pastinha onde ficará salvo os códigos.*
 
-**📂 Ao meu entendimento o que são Branches?**
-Ao meu entender é uma forma de trabalhar no código fonte, sem afetar o código fonte original, ou seja... uma cópia do código fonte para ser trabalhada para não afetar o código fonte original enquanto aquela cópia não esteja estável para se mesclar ao original.
+**📂 O que são Branches?**
+Uma forma de trabalhar no código fonte, sem afetar o código fonte original, ou seja... uma cópia do código fonte para ser trabalhada para não afetar o código fonte original enquanto aquela cópia não esteja estável para se mesclar ao original.
 
-**📥 Ao meu entendimento que são Pull Request?**
-Ao meu entender é uma solicitação de revisão das alterações ao mesmo tempo que é um pedido para que elas sejam mescladas ao código fonte.
+**📥 O que são Pull Request?**
+Uma solicitação de revisão das alterações ao mesmo tempo que é um pedido para que elas sejam mescladas ao código fonte.
 
-**🗂️ Ao meu entendimento que é Merge?**
-Uma operação de mesclar os códigos de duas branches diferentes (por exemplo: mesclar a branche modificada a branche original).
+**🗂️ O que é fazer Merge?**
+É uma operação de mesclar os códigos de duas branches diferentes (por exemplo: mesclar a branche modificada a branche original).
 
-**📑 Ao meu entendimento o que é um Fork?**
-Uma cópia do repositório que pode ser modificada, e então ser incorporada ao código original ou não.
+**📑 O que é um Fork?**
+É uma cópia do repositório que pode ser modificada, e então ser incorporada ao código original ou não.
 
 **📄 O que é um arquivo Markdown?**
 Um arquivo ".md", por exemplo: README.md, arquivo de texto que utiliza a formatação Markdown 
@@ -62,4 +62,22 @@ Comando utilizado para definir a origem do repositório remoto, tal repositório
 `git push -u origin main`
 Comando utilizado para enviar as atualizações do repositório ao GitHub.
 
+### ✏️ Fazendo uma branch do repositório.
 
+`git branch versao_01`
+Comando para criar uma branch.
+
+`git checkout versao_01`
+Comando para trocar de branch, no caso para trocar para a branch que foi acabado de ser criada.
+
+`git status`
+Comando para checar as alterações feitas.
+
+`git checkout main`
+Comando para trocar de branch, no caso para retornar para a branch main.
+
+`git merge versao_01`
+Comando para misturar as alterações feitas na branch versao_01 na branch main.
+
+`git branch`
+Comando para retornar quantas branchs se tem no projeto, o nome em verde se trata da branch que se encontra.
