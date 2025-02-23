@@ -105,3 +105,18 @@ Criando a release, eu seleciono a tag que desejo e se desejo escrever mais na de
 ### 🤏 Gists https://gist.github.com/  
 
 Uma funcionalidade do GitHub de armazenar códigos mais simples, sejam para compartilhar-los ou não.  
+
+### 💬 Issues  
+
+Os GitHub Issues são itens versáteis em um repositório projetados para ajudar você a planejar, discutir e acompanhar o trabalho. Sua simplicidade e flexibilidade o tornam uma escolha ideal para uma variedade de cenários dentro de locais de trabalho modernos.  
+*fonte: https://www.getguru.com/pt/reference/how-to-use-github-issues-a-comprehensive-guide#:~:text=Os%20GitHub%20Issues%20s%C3%A3o%20itens,de%20locais%20de%20trabalho%20modernos.*
+
+Como criar uma issue?
+Exemplo de link: https://github.com/Redyiel/colaboracoes/issues
+Basicamente indo na parte superior ao visualizar um repositório e clicar em "Issues" e então "New Issue"
+
+Caso tenha corrigido uma issue em meu projeto, eu posso adicionar ao meu commit "fixed <id-da-issue>""  
+
+### 📖 Wikis
+
+Diferente do README.md que são informações mais gerais, as wikis tem como função trazer informações mais detalhadas sobre nosso repositório.
