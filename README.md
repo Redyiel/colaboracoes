@@ -81,3 +81,13 @@ Comando para misturar as alterações feitas na branch versao_01 na branch main.
 
 `git branch`
 Comando para retornar quantas branchs se tem no projeto, o nome em verde se trata da branch que se encontra.
+
+### 🏷️ Adicionando Tags
+
+Para que servem as Tags? No exemplo do estudo, ela ajuda a organizar versões do projeto.
+
+`git tag -a v1.1 -m "Versão 1.1"`
+Comando para criar a Tag
+
+`git push origin v1.1`
+Comando de envio de Tag ao repositório
