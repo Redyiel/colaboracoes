@@ -24,7 +24,7 @@ Uma cópia do repositório que pode ser modificada, e então ser incorporada ao 
 Um arquivo ".md", por exemplo: README.md, arquivo de texto que utiliza a formatação Markdown 
 https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
-# 📝 Testes feitos: 
+## 📝 Testes feitos: 
 - Envio de repositório local para o GitHub.
 *Ao abrir a pasta do repositório com o Git instalado, e apertar o botão direito e acionar a opção "Open GitBash here", foi possível começar a trabalhar nesse teste.*
 
